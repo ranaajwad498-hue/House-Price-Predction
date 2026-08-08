@@ -100,7 +100,6 @@ class PricePrediction:
         self.model.fit(self.xtrain,self.ytrain)
         print("\nModel Successfully Trained")
 
-
     def prediction(self):
         print("\nPredicting House Prices.....")
         self.pred = self.model.predict(self.xtest)
